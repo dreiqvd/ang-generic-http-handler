@@ -1,0 +1,15 @@
+<p>Test Data</p>
+<table border style="width: 300px;">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cat of cats">
+      <td>{{ cat.id }}</td>
+      <td>{{ cat.name }}</td>
+    </tr>
+  </tbody>
+</table>
